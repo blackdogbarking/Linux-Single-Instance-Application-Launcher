@@ -1,12 +1,19 @@
-XFCE is one of the best Desktop Environments out there, it’s one of the oldest, most stable, fast, light and customizable. You can have it looking like Mac or even Windows.
+XFCE is one of the best Desktop Environments out there. It’s one of the oldest, most stable, fast, light and customizable.
 
-One of the few things that annoys me, is the XFCE default panel, that, when you click an item, it will always launch a new instance of that program, and that behaviour, is just, well, stupid.
+Yet, the XFCE default panel, will, when you click an item, always launch a new instance of that program. That behaviour, is just, well, stupid.
 
 There is however a way to fix this using wmctrl and a custom script (thanks ToZ), that will be used to launch our applications, and every time we click an icon on the panel, our script will search for a running instance, and if it’s found, it will simply maximize the already open application.
 
+# Dependencies
+
+* xmctrl
+
 # Installation
 
-install xmctrl: `$ sudo dnf install wmctrl`
+install xmctrl:
+    - suse: `$ sudo zypper install wmctrl`
+    - debian/ubuntu: `$ sudo apt install wmctrl`
+    - fedora: `$ sudo dnf install wmctrl`
 Make the script executable: `$ chmod +x launcer.sh`
 
 # Usage
