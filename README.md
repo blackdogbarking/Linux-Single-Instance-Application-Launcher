@@ -10,11 +10,11 @@ There is however a way to fix this using wmctrl and a custom script (thanks ToZ)
 
 # Installation
 
-install xmctrl:
+* install xmctrl:
     - suse: `$ sudo zypper install wmctrl`
     - debian/ubuntu: `$ sudo apt install wmctrl`
     - fedora: `$ sudo dnf install wmctrl`
-Make the script executable: `$ chmod +x launcer.sh`
+* Make the script executable: `$ chmod +x launcer.sh`
 
 # Usage
 
