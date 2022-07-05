@@ -1,3 +1,5 @@
+# About
+
 XFCE is one of the best Desktop Environments out there. It’s one of the oldest, most stable, fast, light and customizable.
 
 Yet, the XFCE default panel, will, when you click an item, always launch a new instance of that program. That behaviour, is just, well, stupid.
@@ -43,3 +45,7 @@ Where ever you can execute a script, you can use this as a app-launcher. Two pos
 * click "okay"
 * press your button-combo
 * enjoy
+
+# Disclaimer
+This project is mainly for the preservation and comfort. All Credits to ToZ and Vastone from https://forum.xfce.org for developing the script. I've just set up a git project around it and wrote some lines in the README.md.
+Orig-Ref: https://forum.xfce.org/viewtopic.php?id=6168&p=1
